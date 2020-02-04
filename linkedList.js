@@ -8,7 +8,7 @@ class LinkedNode {
 class LinkedList  {
     constructor() {
         this.head = null;
-        this.size = 0;
+        this.size = 0; 
     }
 
     // add element to the end
