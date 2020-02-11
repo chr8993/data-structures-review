@@ -18,3 +18,13 @@ let search = (arr, x) => {
     }
     return false;
 }
+
+let arr = [3,5,6,8,9,10,15,18,20,21];
+
+// should return true
+let result = search(arr, 8);
+console.log(result);
+
+// should return false
+result = search(arr, 11);
+console.log(result);
